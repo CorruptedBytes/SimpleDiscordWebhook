@@ -34,7 +34,7 @@ public class Main {
 			}
 			
 			Main.url = read();
-			System.out.println("~ " + args[0] + " sendet: " + msg);
+			System.out.println("~ " + args[0] + " sent: " + msg);
 			Main.discord(args[0], args[1], msg);
 			
 		} else {
