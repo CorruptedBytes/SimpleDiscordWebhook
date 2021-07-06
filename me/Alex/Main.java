@@ -19,7 +19,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("\n  ===== SimpleDiscordWebHook by ProgrammAlex =====\n");
+		System.out.println("\n  ===== SimpleDiscordWebHook by CorruptedBytes =====\n");
 		
 		if (args.length > 2) {
 			String msg = "";
@@ -38,7 +38,7 @@ public class Main {
 			Main.discord(args[0], args[1], msg);
 			
 		} else {
-			System.out.println("DiscordWebhook.jar <Name> <Bild> <Nachricht>");
+			System.out.println("DiscordWebhook.jar <Name> <ProfilePircture> <Message>");
 		}
 		
 	}
@@ -54,7 +54,7 @@ public class Main {
 	      }
 	      myReader.close();
 	    } catch (FileNotFoundException e) {
-	      System.out.println("Fehler: Konnte 'url.yml' nicht finden.\nDas System konnte den angegebenen Pfad nicht finden.");
+	      System.out.println("Error: Could not find 'url.yml'.\nThe system could not find the specified path.");
 	    }
 	return builder.toString();
 	}
